@@ -1,0 +1,10 @@
+version: '3.5'
+services: 
+        eywebappaditya:
+                image: adityafebwebapp:v10
+                build:
+                        context: .
+                        dockerfile: aditya.dockerfile
+                container_name: adityac11
+                ports:
+                        - "8989:80"
